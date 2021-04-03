@@ -27,7 +27,11 @@ From: ubuntu:20.04
 	apt install -y texlive-fonts-recommended texlive-fonts-extra
 
     # Copy additional style files
-	cp /tmp/*.sty /usr/share/texmf/tex/latex
+	cp /tmp/eclbkbox.sty  /usr/share/texmf/tex/latex
+	cp /tmp/emathC.sty  /usr/share/texmf/tex/latex
+	cp /tmp/itembbox.sty  /usr/share/texmf/tex/latex
+	cp /tmp/itembkbx.sty  /usr/share/texmf/tex/latex
+	cp /tmp/jquote.sty*.sty  /usr/share/texmf/tex/latex
 	mktexlsr
 
 	# Install pandoc document converter.
