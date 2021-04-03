@@ -27,6 +27,8 @@ From: ubuntu:20.04
 	apt install -y texlive-fonts-recommended texlive-fonts-extra
 
     # Copy additional style files
+	# "How to deal with a long verbatim environment across page boundaries."
+	# https://muscle-keisuke.hatenablog.com/entry/2016/02/11/195004
 	cp /tmp/eclbkbox.sty  /usr/share/texmf/tex/latex
 	cp /tmp/emathC.sty  /usr/share/texmf/tex/latex
 	cp /tmp/itembbox.sty  /usr/share/texmf/tex/latex
